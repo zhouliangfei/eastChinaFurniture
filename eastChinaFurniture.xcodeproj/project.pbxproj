@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1CEEBCA149AF6460085E9E1 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CEEBBF149AF6460085E9E1 /* NSObject+SBJSON.m */; };
+		B1CEEBCB149AF6460085E9E1 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CEEBC1149AF6460085E9E1 /* NSString+SBJSON.m */; };
+		B1CEEBCC149AF6460085E9E1 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CEEBC3149AF6460085E9E1 /* SBJSON.m */; };
+		B1CEEBCD149AF6460085E9E1 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CEEBC5149AF6460085E9E1 /* SBJsonBase.m */; };
+		B1CEEBCE149AF6460085E9E1 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CEEBC7149AF6460085E9E1 /* SBJsonParser.m */; };
+		B1CEEBCF149AF6460085E9E1 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CEEBC9149AF6460085E9E1 /* SBJsonWriter.m */; };
+		B1F596E61499D751001FD127 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F596E51499D751001FD127 /* UIKit.framework */; };
+		B1F596E81499D751001FD127 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F596E71499D751001FD127 /* Foundation.framework */; };
+		B1F596EE1499D751001FD127 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1F596EC1499D751001FD127 /* InfoPlist.strings */; };
+		B1F596F01499D751001FD127 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F596EF1499D751001FD127 /* main.m */; };
+		B1F596F41499D751001FD127 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F596F31499D751001FD127 /* AppDelegate.m */; };
+		B1F596F71499D751001FD127 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F596F61499D751001FD127 /* ViewController.m */; };
+		B1F596FA1499D751001FD127 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1F596F81499D751001FD127 /* ViewController.xib */; };
+		B1F597021499D7DD001FD127 /* Base.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F597011499D7DD001FD127 /* Base.m */; };
+		B1F597111499D7E8001FD127 /* gui__btnBuy.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F597051499D7E8001FD127 /* gui__btnBuy.png */; };
+		B1F597121499D7E8001FD127 /* gui__btnmenu1.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F597061499D7E8001FD127 /* gui__btnmenu1.png */; };
+		B1F597131499D7E8001FD127 /* gui__btnmenu2.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F597071499D7E8001FD127 /* gui__btnmenu2.png */; };
+		B1F597141499D7E8001FD127 /* gui__btnShare.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F597081499D7E8001FD127 /* gui__btnShare.png */; };
+		B1F597151499D7E8001FD127 /* gui__btnWeb.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F597091499D7E8001FD127 /* gui__btnWeb.png */; };
+		B1F597161499D7E8001FD127 /* gui__butHelp.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F5970A1499D7E8001FD127 /* gui__butHelp.png */; };
+		B1F597181499D7E8001FD127 /* gui__logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F5970C1499D7E8001FD127 /* gui__logo.png */; };
+		B1F597191499D7E8001FD127 /* gui__showdown1.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F5970D1499D7E8001FD127 /* gui__showdown1.png */; };
+		B1F5971A1499D7E8001FD127 /* gui__showdown2.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F5970E1499D7E8001FD127 /* gui__showdown2.png */; };
+		B1F5971E1499D958001FD127 /* AppBook.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F5971D1499D958001FD127 /* AppBook.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B1CEEBBD149AF6460085E9E1 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		B1CEEBBE149AF6460085E9E1 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		B1CEEBBF149AF6460085E9E1 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		B1CEEBC0149AF6460085E9E1 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		B1CEEBC1149AF6460085E9E1 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		B1CEEBC2149AF6460085E9E1 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		B1CEEBC3149AF6460085E9E1 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		B1CEEBC4149AF6460085E9E1 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		B1CEEBC5149AF6460085E9E1 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		B1CEEBC6149AF6460085E9E1 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		B1CEEBC7149AF6460085E9E1 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		B1CEEBC8149AF6460085E9E1 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		B1CEEBC9149AF6460085E9E1 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		B1F596E11499D751001FD127 /* eastChinaFurniture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eastChinaFurniture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1F596E51499D751001FD127 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B1F596E71499D751001FD127 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B1F596EB1499D751001FD127 /* eastChinaFurniture-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "eastChinaFurniture-Info.plist"; sourceTree = "<group>"; };
+		B1F596ED1499D751001FD127 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B1F596EF1499D751001FD127 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1F596F11499D751001FD127 /* eastChinaFurniture-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "eastChinaFurniture-Prefix.pch"; sourceTree = "<group>"; };
+		B1F596F21499D751001FD127 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B1F596F31499D751001FD127 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B1F596F51499D751001FD127 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B1F596F61499D751001FD127 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B1F596F91499D751001FD127 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		B1F597001499D7DD001FD127 /* Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base.h; sourceTree = "<group>"; };
+		B1F597011499D7DD001FD127 /* Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base.m; sourceTree = "<group>"; };
+		B1F597051499D7E8001FD127 /* gui__btnBuy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gui__btnBuy.png; sourceTree = "<group>"; };
+		B1F597061499D7E8001FD127 /* gui__btnmenu1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gui__btnmenu1.png; sourceTree = "<group>"; };
+		B1F597071499D7E8001FD127 /* gui__btnmenu2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gui__btnmenu2.png; sourceTree = "<group>"; };
+		B1F597081499D7E8001FD127 /* gui__btnShare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gui__btnShare.png; sourceTree = "<group>"; };
+		B1F597091499D7E8001FD127 /* gui__btnWeb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gui__btnWeb.png; sourceTree = "<group>"; };
+		B1F5970A1499D7E8001FD127 /* gui__butHelp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gui__butHelp.png; sourceTree = "<group>"; };
+		B1F5970C1499D7E8001FD127 /* gui__logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gui__logo.png; sourceTree = "<group>"; };
+		B1F5970D1499D7E8001FD127 /* gui__showdown1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gui__showdown1.png; sourceTree = "<group>"; };
+		B1F5970E1499D7E8001FD127 /* gui__showdown2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gui__showdown2.png; sourceTree = "<group>"; };
+		B1F5971C1499D958001FD127 /* AppBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppBook.h; sourceTree = "<group>"; };
+		B1F5971D1499D958001FD127 /* AppBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppBook.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1F596DE1499D751001FD127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F596E61499D751001FD127 /* UIKit.framework in Frameworks */,
+				B1F596E81499D751001FD127 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1CEEBBC149AF6460085E9E1 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				B1CEEBBD149AF6460085E9E1 /* JSON.h */,
+				B1CEEBBE149AF6460085E9E1 /* NSObject+SBJSON.h */,
+				B1CEEBBF149AF6460085E9E1 /* NSObject+SBJSON.m */,
+				B1CEEBC0149AF6460085E9E1 /* NSString+SBJSON.h */,
+				B1CEEBC1149AF6460085E9E1 /* NSString+SBJSON.m */,
+				B1CEEBC2149AF6460085E9E1 /* SBJSON.h */,
+				B1CEEBC3149AF6460085E9E1 /* SBJSON.m */,
+				B1CEEBC4149AF6460085E9E1 /* SBJsonBase.h */,
+				B1CEEBC5149AF6460085E9E1 /* SBJsonBase.m */,
+				B1CEEBC6149AF6460085E9E1 /* SBJsonParser.h */,
+				B1CEEBC7149AF6460085E9E1 /* SBJsonParser.m */,
+				B1CEEBC8149AF6460085E9E1 /* SBJsonWriter.h */,
+				B1CEEBC9149AF6460085E9E1 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		B1F596D61499D750001FD127 = {
+			isa = PBXGroup;
+			children = (
+				B1CEEBBC149AF6460085E9E1 /* JSON */,
+				B1F597031499D7E8001FD127 /* source */,
+				B1F596E91499D751001FD127 /* eastChinaFurniture */,
+				B1F596E41499D751001FD127 /* Frameworks */,
+				B1F596E21499D751001FD127 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1F596E21499D751001FD127 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1F596E11499D751001FD127 /* eastChinaFurniture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1F596E41499D751001FD127 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1F596E51499D751001FD127 /* UIKit.framework */,
+				B1F596E71499D751001FD127 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1F596E91499D751001FD127 /* eastChinaFurniture */ = {
+			isa = PBXGroup;
+			children = (
+				B1F597001499D7DD001FD127 /* Base.h */,
+				B1F597011499D7DD001FD127 /* Base.m */,
+				B1F596F21499D751001FD127 /* AppDelegate.h */,
+				B1F596F31499D751001FD127 /* AppDelegate.m */,
+				B1F596F51499D751001FD127 /* ViewController.h */,
+				B1F596F61499D751001FD127 /* ViewController.m */,
+				B1F5971C1499D958001FD127 /* AppBook.h */,
+				B1F5971D1499D958001FD127 /* AppBook.m */,
+				B1F596F81499D751001FD127 /* ViewController.xib */,
+				B1F596EA1499D751001FD127 /* Supporting Files */,
+			);
+			path = eastChinaFurniture;
+			sourceTree = "<group>";
+		};
+		B1F596EA1499D751001FD127 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1F596EB1499D751001FD127 /* eastChinaFurniture-Info.plist */,
+				B1F596EC1499D751001FD127 /* InfoPlist.strings */,
+				B1F596EF1499D751001FD127 /* main.m */,
+				B1F596F11499D751001FD127 /* eastChinaFurniture-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1F597031499D7E8001FD127 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				B1F597051499D7E8001FD127 /* gui__btnBuy.png */,
+				B1F597061499D7E8001FD127 /* gui__btnmenu1.png */,
+				B1F597071499D7E8001FD127 /* gui__btnmenu2.png */,
+				B1F597081499D7E8001FD127 /* gui__btnShare.png */,
+				B1F597091499D7E8001FD127 /* gui__btnWeb.png */,
+				B1F5970A1499D7E8001FD127 /* gui__butHelp.png */,
+				B1F5970C1499D7E8001FD127 /* gui__logo.png */,
+				B1F5970D1499D7E8001FD127 /* gui__showdown1.png */,
+				B1F5970E1499D7E8001FD127 /* gui__showdown2.png */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1F596E01499D751001FD127 /* eastChinaFurniture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1F596FD1499D751001FD127 /* Build configuration list for PBXNativeTarget "eastChinaFurniture" */;
+			buildPhases = (
+				B1F596DD1499D751001FD127 /* Sources */,
+				B1F596DE1499D751001FD127 /* Frameworks */,
+				B1F596DF1499D751001FD127 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eastChinaFurniture;
+			productName = eastChinaFurniture;
+			productReference = B1F596E11499D751001FD127 /* eastChinaFurniture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1F596D81499D750001FD127 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B1F596DB1499D750001FD127 /* Build configuration list for PBXProject "eastChinaFurniture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B1F596D61499D750001FD127;
+			productRefGroup = B1F596E21499D751001FD127 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1F596E01499D751001FD127 /* eastChinaFurniture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1F596DF1499D751001FD127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F596EE1499D751001FD127 /* InfoPlist.strings in Resources */,
+				B1F596FA1499D751001FD127 /* ViewController.xib in Resources */,
+				B1F597111499D7E8001FD127 /* gui__btnBuy.png in Resources */,
+				B1F597121499D7E8001FD127 /* gui__btnmenu1.png in Resources */,
+				B1F597131499D7E8001FD127 /* gui__btnmenu2.png in Resources */,
+				B1F597141499D7E8001FD127 /* gui__btnShare.png in Resources */,
+				B1F597151499D7E8001FD127 /* gui__btnWeb.png in Resources */,
+				B1F597161499D7E8001FD127 /* gui__butHelp.png in Resources */,
+				B1F597181499D7E8001FD127 /* gui__logo.png in Resources */,
+				B1F597191499D7E8001FD127 /* gui__showdown1.png in Resources */,
+				B1F5971A1499D7E8001FD127 /* gui__showdown2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1F596DD1499D751001FD127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F596F01499D751001FD127 /* main.m in Sources */,
+				B1F596F41499D751001FD127 /* AppDelegate.m in Sources */,
+				B1F596F71499D751001FD127 /* ViewController.m in Sources */,
+				B1F597021499D7DD001FD127 /* Base.m in Sources */,
+				B1F5971E1499D958001FD127 /* AppBook.m in Sources */,
+				B1CEEBCA149AF6460085E9E1 /* NSObject+SBJSON.m in Sources */,
+				B1CEEBCB149AF6460085E9E1 /* NSString+SBJSON.m in Sources */,
+				B1CEEBCC149AF6460085E9E1 /* SBJSON.m in Sources */,
+				B1CEEBCD149AF6460085E9E1 /* SBJsonBase.m in Sources */,
+				B1CEEBCE149AF6460085E9E1 /* SBJsonParser.m in Sources */,
+				B1CEEBCF149AF6460085E9E1 /* SBJsonWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B1F596EC1499D751001FD127 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1F596ED1499D751001FD127 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B1F596F81499D751001FD127 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1F596F91499D751001FD127 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1F596FB1499D751001FD127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B1F596FC1499D751001FD127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1F596FE1499D751001FD127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eastChinaFurniture/eastChinaFurniture-Prefix.pch";
+				INFOPLIST_FILE = "eastChinaFurniture/eastChinaFurniture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B1F596FF1499D751001FD127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eastChinaFurniture/eastChinaFurniture-Prefix.pch";
+				INFOPLIST_FILE = "eastChinaFurniture/eastChinaFurniture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1F596DB1499D750001FD127 /* Build configuration list for PBXProject "eastChinaFurniture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1F596FB1499D751001FD127 /* Debug */,
+				B1F596FC1499D751001FD127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1F596FD1499D751001FD127 /* Build configuration list for PBXNativeTarget "eastChinaFurniture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1F596FE1499D751001FD127 /* Debug */,
+				B1F596FF1499D751001FD127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1F596D81499D750001FD127 /* Project object */;
+}
